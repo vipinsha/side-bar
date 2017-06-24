@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Side bar menu</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="work.js"></script>
+</head>
+<body>
+    <nav class="top-nav">
+        <svg height="20" width="20" onclick="openSideNav()">
+            <g fill="none" stroke="black" stroke-width="4">
+                <path stroke-linecap="round" d="M5 5 l215 0" />
+                <path stroke-linecap="round" d="M5 10 l215 0" />
+                <path stroke-linecap="round" d="M5 15 l215 0" />
+            </g>
+            </svg>
+    </nav>
+    <div id="side-bar" class="side-nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contacts</a></li>
+            <li><a href="#">Help</a></li>
+        </ul>
+    </div>
+    <div id="body-content">
+        Body Content here
+    </div>
+</body>
+</html>
